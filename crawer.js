@@ -29,12 +29,13 @@ function fetch(options){
 
 (async ()=>{
   try {
+      //要爬的地址
       let url=`https://h5.ele.me/restapi/shopping/v2/banners?consumer=1&type=1&latitude=23.117715&longitude=113.405029`;
 
       let buffer=await fetch({
           url,
           headers:{
-
+              //请求头信息
           }
       });
 
